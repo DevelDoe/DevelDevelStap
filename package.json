@@ -1,0 +1,37 @@
+{
+  "name": "develdevelstap",
+  "version": "0.0.0",
+  "description": "strapping development projects that rely on gulp compiling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevelDoe/DevelDevelStap.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "development",
+    "develdoe",
+    "develdevelstrap",
+    "start",
+    "project"
+  ],
+  "author": "Andree \"DevelDoe\" Ray <andreeray@live.com> (http://andreeray.se)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevelDoe/DevelDevelStap/issues"
+  },
+  "homepage": "https://github.com/DevelDoe/DevelDevelStap#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.8",
+    "run-sequence": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp-clean": "^0.3.2",
+    "gulp-less": "^3.3.2"
+  }
+}

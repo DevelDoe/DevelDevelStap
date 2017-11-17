@@ -1,8 +1,6 @@
 # DevelDevelStap
 I have created simple strapping repo for your convenience.
 
-In the master branch its a simple index.html file and css to create a workspace for you that resembles a blueprint. When you create new sections they will be outlined which will let you know if some things are out of order.
+In the gulp branch you get a basic compiling with gulp and less. Use it to create a workspace for you that resembles a blueprint. When you create new sections they will be outlined which will let you know if some things are out of order.
 
-**Expect new branches for projects that require compilers like gulp and webpack soon**
-
-![DeveDevelStrap image](https://github.com/log-andreeray/log-andreeray.github.io/blob/master/img/posts/develdevelstrap-master.png)
+![DeveDevelStrap image](https://i.imgur.com/DIvvzuW.png)

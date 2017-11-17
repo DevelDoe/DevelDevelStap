@@ -18,7 +18,7 @@ body {
     padding: 0px;
     max-width: 960px;
 
-    font: 10px 'Helvetica Neue', Helvetica, Arial, sans-serif;  /* font-size base 10 */
+    font: 10px 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;  /* font-size base 10 */
     color: white;
     line-height: 1.4em;
     -webkit-font-smoothing: antialiased;
@@ -27,9 +27,14 @@ body {
     font-weight: 300;
 }
 
-/* Classes */
+/* main sections */
+#app {
+    height: 100%;
+}
 #background {
-    font-size: 1.6rem;
+    font-size: 1.6rem; /* => 16 px (remember, base = 10) */
+
+    position:relative;
 
     background-color: rgb(0, 119, 204);
     background-image: linear-gradient(0deg, transparent, transparent 7px, rgba(255, 255, 255, 0.25) 7px), linear-gradient(90deg, transparent, transparent 7px, rgba(255, 255, 255, 0.25) 7px);
@@ -38,62 +43,36 @@ body {
 }
 #header {
     height: 10%;
+    text-align: center;
 }
 #content {
     height: 80%;
 }
 #footer {
     height: 10%;
+    text-align: center;
 }
 
 /* elements */
 section, div, header, footer{
-    color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.125);
     outline: rgba(255, 255, 255, 0.5) solid 1px !important;
-    padding: 20px;
+    padding: 1%;
 }
-a {
-    width: 100%;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    margin-right: 5px;
+h1 {
+font-size:112px;
+font-weight:300;
+letter-spacing:-5px;
 }
-li {
-    float: left;
-    list-style-type: none;
+h2 {
+font-size:56px;
+font-weight:400;
 }
-
-/* Forms */
-label {
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    float: left;
-    text-align: left;
-    margin-right: 10px;
-    width: 60px;
+h3 {
+font-size:45px;
+font-weight:400;
 }
-input {
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    background-color: rgba(255, 255, 255, 0.125);
-    outline: none;
-    color: white;
-    font-size: 16px;
-}
-input::placeholder {
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.5);
-}
-button {
-    color: #ffffff;
-    font-size: 16px;
-    background: rgba(255, 255, 255, 0.125);
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    border: none;
-    width: 100%;
-}
-button:hover {
-    background: rgba(255, 255, 255, 0.5);
-    text-decoration: none;
+h4 {
+font-size:34px;
+font-weight:400;
 }

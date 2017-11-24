@@ -1,12 +1,7 @@
-/* clearfix */
-.group:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 /* html & body */
-html,body {height: 100%;}
+html,body {
+    height: 100%;
+}
 html {
     box-sizing: border-box;
 }
@@ -20,11 +15,18 @@ body {
 
     font: 10px 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;  /* font-size base 10 */
     color: white;
-    line-height: 1.4em;
+    line-height: 1.2em;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     font-smoothing: antialiased;
     font-weight: 300;
+}
+
+/* clearfix */
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* main sections */

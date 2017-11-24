@@ -53,8 +53,25 @@ body {
     text-align: center;
 }
 
-/* elements */
-section, div, header, footer{
+/**
+ * HTML block-level elements
+ * -------------------------
+ * A Block-level element occupies the entire space of its
+ * parent element, thereby creating a a block.
+ *
+ * Browsers typically display the element with a newline bothe
+ * before and after the element. You can visualize them as a
+ * stack of blocks.
+ *
+ * Note: Block-level elements always starts on an new line and takes
+ * up the fyll width available (stretches out to the left and right as fare
+ * as it can.
+*/
+article,aside,blockquote,body,br,button,canvas,caption,col,colgroup,dd,
+div,dl,dt,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,
+header,hgroup,hr,li,map,object,ol,output,p,pre,progress,section,table,
+tbody,textarea,tfoot,th,thead,tr,ul,video
+{
     background-color: rgba(255, 255, 255, 0.125);
     outline: rgba(255, 255, 255, 0.5) solid 1px !important;
     padding: 1%;

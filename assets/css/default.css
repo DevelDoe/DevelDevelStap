@@ -65,20 +65,3 @@ tbody,textarea,tfoot,th,thead,tr,ul,video
     outline: rgba(255, 255, 255, 0.5) solid 1px !important;
     padding: 1%;
 }
-h1 {
-font-size:112px;
-font-weight:300;
-letter-spacing:-5px;
-}
-h2 {
-font-size:56px;
-font-weight:400;
-}
-h3 {
-font-size:45px;
-font-weight:400;
-}
-h4 {
-font-size:34px;
-font-weight:400;
-}
